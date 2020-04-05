@@ -1,0 +1,42 @@
+﻿SQL : SUB Queries
+
+    • In SQL a Subquery can be defined as a query within another query.
+    • The outer query is called as main query and inner query is called as subquery.
+    • Subqueries can be used with SELECT, UPDATE, INSERT, DELETE statements along with expression operator. It could be equality operator or comparison operator such as =, >, =, <= and Like operator.
+    • The subquery executes first, and its output is used to complete the query condition for the outer query.
+
+Example :
+
+Consider an employee entity with attributes Id, Name, Age, Email and Salary.
+
+
+
+
+
+1. Sub query with SELECT: Employees having salary more than 4000.
+
+
+
+
+
+
+
+2. Sub query with INSERT: Duplicating the employee table into employee_records table which can be used for certain operations.
+
+
+
+
+
+3. Sub query with UPDATE: Update the salary by 50% of employees    whose age is greater than or equal to 22.
+
+
+
+
+
+
+
+
+4. Sub query with DELETE: Delete the employees whose age is greater than or equal to 22 years.
+
+
+
